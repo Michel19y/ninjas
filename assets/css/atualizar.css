@@ -1,0 +1,88 @@
+body {
+    font-family: 'Yu Gothic', sans-serif;
+    background-image: url(https://www.tonal.com.br/wp-content/uploads/2020/05/naruto-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #bfbfbf;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgba(30, 30, 30, 0.9);
+    justify-content: center;
+    align-items: center;
+    /* background-color: #211e1e; */
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    padding: 40px;
+    background: linear-gradient(to bottom, #2c2c2c, #1c1c1c);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    text-align: center;
+    color: #F79C42;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1em;
+    color: #F79C42;
+    margin-bottom: 8px;
+    display: block;
+    text-shadow: 1px 1px 2px #000;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #353535;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #F79C42;
+}
+
+button[type="submit"] {
+    background-color: #F79C42;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #FF8C00;
+}
+
+.error {
+    color: #ff5e5e;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    background-color: #c82333;
+    padding: 8px;
+    border-radius: 5px;
+}
